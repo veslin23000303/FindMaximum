@@ -11,21 +11,46 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
+```
+#Write a program to find the maximum marks using the list method max().
+#name:VESLIN ANISH A
+#register num: 212223240175
+def max_marks(array):
+    return max (array)
 
 
 
 ```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
+```
+'''
+NAME:VESLIN ANISH A
+REGISTER NO:212223240175
+'''
+def max_marks(array):
+    max1=array[0]
+    for i in range(1,len(array)):
+        if max1<array[i]:
+           max1=array[i]
+    return max1
 
 
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
+```
+'''
+NAME:VESLIN ANISH A
+REGISTER NO:212223240175
+'''
+def max_marks(array):
+    max1=array[0]
+    for i in range(1,len(array)):
+        if max1<array[i]:
+            max1=array[i]
+    return max1
 
 
 
@@ -34,6 +59,12 @@ iii) # To find the maximum marks without using builtin functions.
 
 
 ## Output:
+![Screenshot 2024-05-23 165023](https://github.com/veslin23000303/FindMaximum/assets/151148539/767ea73a-7528-46eb-9539-6cab88183c8f)
+![Screenshot 2024-05-23 165041](https://github.com/veslin23000303/FindMaximum/assets/151148539/5d48de6d-faa1-44f9-9780-97120afc6876)
+![Screenshot 2024-05-23 165054](https://github.com/veslin23000303/FindMaximum/assets/151148539/e9640f7f-7988-4386-99e7-a638fd9cb6eb)
+
+
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
